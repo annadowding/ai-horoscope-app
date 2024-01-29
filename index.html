@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Horoscope App - Anna Dowding</title>
 </head>
 <body>
     <h1>AI Horoscope Poem Generator</h1>
+
+    <form id="submit-form">
+        <input type="text"
+        placeholder="Enter your birth date..."
+        autofocus required autocomplete="off" class="instructions" id="user-entry-word">
+        <input type="submit" class="submit-button">
+    </form>
+    
+
+
     <footer>This project was coded by <a href="https://github.com/annadowding">Anna Dowding</a></footer> is <a href="https://github.com/annadowding/ai-horoscope-app">open sourced</a> and <a href="https://annadowding-ai-horoscope.netlify.app/">hosted on Netlify</a>
     <script src="src/script.js"></script>
 </body>
